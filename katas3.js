@@ -154,15 +154,36 @@ function kata15() {
 }
 
 function kata16() {
-    // implemente o código do kata 16 aqui
+    let resultado = 0;
+    for(let i = 1; i < sampleArray.length; i++){
+        resultado  += sampleArray[i]
+      
+    }
+    return showResults(resultado);
+
 }
 
 function kata17() {
-    // implemente o código do kata 17 aqui
+    let resultado = sampleArray[0];
+    for(let i = 0; i < sampleArray.length; i++){
+        if(sampleArray[i] < resultado){
+            resultado = sampleArray[i];
+        }
+                
+    }
+    return showResults(resultado);
+
 }
 
 function kata18() {
-    // implemente o código do kata 18 aqui
+    let resultado = 0;
+    for(let i = 0; i < sampleArray.length; i++){
+        if(sampleArray[i] > resultado){
+            resultado = sampleArray[i];
+        }        
+    }
+    return showResults(resultado);
+
 }
 
 /**
