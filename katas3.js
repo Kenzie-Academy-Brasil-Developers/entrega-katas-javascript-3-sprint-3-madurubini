@@ -17,6 +17,8 @@ function kata1() {
        
 } 
 
+kata1();
+
 
 
 function kata2() {
@@ -27,6 +29,8 @@ function kata2() {
     return showResults(resultado);
 }
 
+kata2();
+
 function kata3() {
     let resultado = [];
     for(let i = -1; i >= (-25); i--){
@@ -35,6 +39,8 @@ function kata3() {
     return showResults(resultado);
 
 }
+
+kata3();
 
 function kata4() {
     let resultado = [];
@@ -45,6 +51,8 @@ function kata4() {
 
 }
 
+kata4();
+
 function kata5() {
     let resultado = [];
     for (let i = 25; i >= (-25); i--){
@@ -54,6 +62,8 @@ function kata5() {
     }
     return showResults(resultado);
 }
+
+kata5();
 
 function kata6() {
     let resultado = [];
@@ -66,6 +76,8 @@ function kata6() {
 
 }
 
+kata6();
+
 function kata7() {
     let resultado = [];
     for(let i = 1; i <= 100; i++){
@@ -76,6 +88,8 @@ function kata7() {
     return showResults(resultado);
 
 }
+
+kata7();
 
 function kata8() {
     let resultado = [];
@@ -88,6 +102,8 @@ function kata8() {
 
 }
 
+kata8();
+
 function kata9() {
    let resultado = [];
    for(let i = 5; i <=100 ; i++){
@@ -99,9 +115,13 @@ function kata9() {
 
 }
 
+kata9();
+
 function kata10() {
    return showResults(sampleArray);
 }
+
+kata10();
 
 function kata11() {
     let resultado = [];
@@ -114,6 +134,8 @@ function kata11() {
 
 }
 
+kata11();
+
 function kata12() {
     let resultado = [];
     for(let i = 0; i <= sampleArray.length -1; i++){
@@ -124,6 +146,8 @@ function kata12() {
     return showResults(resultado);
 
 }
+
+kata12();
 
 
 function kata13() {
@@ -137,14 +161,18 @@ function kata13() {
 
 }
 
+kata13();
+
 function kata14() {
     let resultado = [];
-    for(let i = 0; i <= sampleArray.length; i++){
+    for(let i = 0; i < sampleArray.length; i++){
         resultado.push(sampleArray[i]**2)
     }
     return showResults(resultado);
 
 }
+
+kata14();
 
 function kata15() {
     let resultado = 0;
@@ -155,6 +183,8 @@ function kata15() {
 
 }
 
+kata15();
+
 function kata16() {
     let resultado = 0;
     for(let i = 0; i < sampleArray.length; i++){
@@ -164,6 +194,8 @@ function kata16() {
     return showResults(resultado);
 
 }
+
+kata16();
 
 function kata17() {
     let resultado = sampleArray[0];
@@ -177,6 +209,8 @@ function kata17() {
 
 }
 
+kata17();
+
 function kata18() {
     let resultado = 0;
     for(let i = 0; i < sampleArray.length; i++){
@@ -187,6 +221,9 @@ function kata18() {
     return showResults(resultado);
 
 }
+
+kata18();
+
 
 
 
