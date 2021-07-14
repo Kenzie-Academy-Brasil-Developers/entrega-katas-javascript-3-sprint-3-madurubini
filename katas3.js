@@ -17,6 +17,8 @@ function kata1() {
        
 } 
 
+
+
 function kata2() {
     let resultado = [];
     for(let i = 25; i > 0; i--){
@@ -114,7 +116,7 @@ function kata11() {
 
 function kata12() {
     let resultado = [];
-    for(let i = 1; i <= sampleArray.length -1; i++){
+    for(let i = 0; i <= sampleArray.length -1; i++){
         if(sampleArray[i]%2 !== 0){
             resultado.push(sampleArray[i])
         }
@@ -155,7 +157,7 @@ function kata15() {
 
 function kata16() {
     let resultado = 0;
-    for(let i = 1; i < sampleArray.length; i++){
+    for(let i = 0; i < sampleArray.length; i++){
         resultado  += sampleArray[i]
       
     }
@@ -186,6 +188,9 @@ function kata18() {
 
 }
 
+
+
+
 /**
  * Daqui em diante são os bônus, por sua conta e risco
  */
@@ -209,3 +214,5 @@ function kataBonus4() {
 function kataBonus5() {
     // implemente o código do kata bonus 5 aqui
 }
+
+
